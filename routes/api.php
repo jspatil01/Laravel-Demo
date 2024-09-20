@@ -147,6 +147,7 @@ Route::controller(PostController::class)->prefix('/post')->group(function(){
     Route::post('/', 'store');
     Route::get('/{post}', 'show');
     Route::patch('/{post}', 'update');
+    Route::delete('/{post}', 'delete');
 });
 Route::controller(VideoController::class)->prefix('/video')->group(function(){
     Route::post('/', 'store');
