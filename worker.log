@@ -1,0 +1,1683 @@
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+                                                                               
+  Too many arguments to "queue:work" command, expected arguments "connection"  
+  .                                                                            
+                                                                               
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   InvalidArgumentException 
+
+  The [queue=email] queue connection has not been configured.
+
+  at /var/www/html/serveravatar/demo/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:159
+    155▕     {
+    156▕         $config = $this->getConfig($name);
+    157▕ 
+    158▕         if (is_null($config)) {
+  ➜ 159▕             throw new InvalidArgumentException("The [{$name}] queue connection has not been configured.");
+    160▕         }
+    161▕ 
+    162▕         return $this->getConnector($config['driver'])
+    163▕                         ->connect($config)
+
+      [2m+16 vendor frames [22m
+
+  17  /var/www/html/serveravatar/demo/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
