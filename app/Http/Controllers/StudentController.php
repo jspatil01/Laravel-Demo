@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Student;
 use Exception;
 use App\Jobs\DemoJob;
+
 class StudentController extends Controller
 {
     public function index()
