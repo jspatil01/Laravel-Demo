@@ -124,8 +124,9 @@ Route::controller(TeacherController::class)->prefix('/teachers')->group (functio
     Route::patch('/{teacher}', 'update');
     Route::delete('/{teacher}', 'delete');
 });
-Route::controller(StudentController::class)->prefix('/student')->group(function(){
-    Route::post('/', 'store');
+Route::controller(StudentController::class)->prefix('/students')->group(function(){
+    Route::post( '/', 'store');
+    Route::get('/', 'index');
 });
 
 Route::controller(DepartmentController::class)->prefix('/department')->group(function(){
